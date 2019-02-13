@@ -3,7 +3,9 @@ A dataset is provided to help researchers perform systematic comparison of multi
 Input files, output files (air quality and monetized health impacts), and necessary application files (run control and code) are provided as part of this database to facilitate model comparison for current and future versions of these tools. Further, the input and output files for the Environmental Benefits and Mapping Community Edition (BenMAP-CE; https://www.epa.gov/benmap) system are also provided to allow for estimation of the monetized health impacts associated with each of these emission scenarios. 
 
 APEEP: https://public.tepper.cmu.edu/nmuller/APModel.aspx
+
 InMAP: http://spatialmodel.com/inmap
+
 EASIUR: http://barney.ce.cmu.edu/~jinhyok/easiur
 
 
