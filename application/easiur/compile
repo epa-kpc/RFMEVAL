@@ -1,0 +1,6 @@
+rm *.o
+make -f Makefile
+rm *.o
+rm *~
+rm *%
+rm core
