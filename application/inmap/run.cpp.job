@@ -1,0 +1,19 @@
+#!/bin/csh
+#SBATCH -p oar
+#SBATCH -t 160:00:00
+#SBATCH -n 64
+#SBATCH -c 1
+#SBATCH --gid=romo
+#SBATCH --account=romo
+#SBATCH --export=NONE
+
+
+
+setenv outdir /work/ROMO/users/kpc/rfmeval/inmap/output/cpp
+setenv indir /work/ROMO/users/kpc/rfmeval/inmap/input
+mkdir -p $outdir
+
+
+/work/ROMO/users/kpc/rfmeval/inmap/inmap1.4.1linux-amd64 run steady --config=cpp_2011_11met_EConly_12US2.toml
+
+exit()
